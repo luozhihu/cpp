@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "compile",
+			"command": "D:\\download\\mingw\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "D:\\download\\mingw\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "编译器: D:\\download\\mingw\\x86_64-8.1.0-release-win32-sjlj-rt_v6-rev0\\mingw64\\bin\\g++.exe"
+		}
+	]
+}
